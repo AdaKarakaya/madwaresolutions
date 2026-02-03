@@ -36,7 +36,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Madware Solutions" }],
   icons: {
-    icon: '/images/madware.png',
+    icon: [
+      { url: '/images/madware.png', type: 'image/png' },
+    ],
     apple: '/images/madware.png',
     shortcut: '/images/madware.png',
   },
