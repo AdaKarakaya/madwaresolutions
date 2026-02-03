@@ -8,7 +8,7 @@
     "export": "next build",
     "start": "next start",
     "lint": "eslint",
-    "deploy": "next build && touch out/.nojekyll && echo 'madwaresolutions.com' > out/CNAME"
+    "deploy": "next build && touch out/.nojekyll && echo 'adakarakaya.com' > out/CNAME"
   },
   "dependencies": {
     "next": "16.1.1",
