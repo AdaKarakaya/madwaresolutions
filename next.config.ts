@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/madwaresolutions' : '',
+  basePath: '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/madwaresolutions' : '',
   trailingSlash: true,
 };
 
